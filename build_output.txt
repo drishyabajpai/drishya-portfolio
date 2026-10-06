@@ -1,0 +1,36 @@
+
+> moncy-portfolio@0.0.0 build
+> tsc -b && vite build
+
+[36mvite v5.4.4 [32mbuilding for production...[36m[39m
+transforming...
+node_modules/three-stdlib/libs/lottie.js (13062:32): Use of eval in "node_modules/three-stdlib/libs/lottie.js" is strongly discouraged as it poses security risks and may cause issues with minification.
+[32m✓[39m 783 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                         [39m[1m[2m    0.74 kB[22m[1m[22m[2m │ gzip:   0.40 kB[22m
+[2mdist/[22m[35massets/Navbar-BnKDS5-F.css         [39m[1m[2m    1.36 kB[22m[1m[22m[2m │ gzip:   0.57 kB[22m
+[2mdist/[22m[35massets/MyWorks-BUvDkKhq.css        [39m[1m[2m    1.90 kB[22m[1m[22m[2m │ gzip:   0.73 kB[22m
+[2mdist/[22m[35massets/index-B2y6uCN9.css          [39m[1m[2m    8.18 kB[22m[1m[22m[2m │ gzip:   2.33 kB[22m
+[2mdist/[22m[35massets/Play-BV4utZUL.css           [39m[1m[2m   10.34 kB[22m[1m[22m[2m │ gzip:   2.48 kB[22m
+[2mdist/[22m[35massets/MainContainer-By9sCzVl.css  [39m[1m[2m   25.99 kB[22m[1m[22m[2m │ gzip:   5.49 kB[22m
+[2mdist/[22m[36massets/MyWorks-B9lQXFQJ.js         [39m[1m[2m    1.13 kB[22m[1m[22m[2m │ gzip:   0.47 kB[22m
+[2mdist/[22m[36massets/initialFX-CpV_NECM.js       [39m[1m[2m    1.68 kB[22m[1m[22m[2m │ gzip:   0.69 kB[22m
+[2mdist/[22m[36massets/config-BKT00X4A.js          [39m[1m[2m    8.03 kB[22m[1m[22m[2m │ gzip:   3.09 kB[22m
+[2mdist/[22m[36massets/index-CsYkHb4-.js           [39m[1m[2m    9.41 kB[22m[1m[22m[2m │ gzip:   3.46 kB[22m
+[2mdist/[22m[36massets/index-DUwFnytV.js           [39m[1m[2m    9.84 kB[22m[1m[22m[2m │ gzip:   3.81 kB[22m
+[2mdist/[22m[36massets/Navbar-MbLZrw0E.js          [39m[1m[2m   21.60 kB[22m[1m[22m[2m │ gzip:   6.24 kB[22m
+[2mdist/[22m[36massets/MainContainer-CnlZPeMx.js   [39m[1m[2m   26.64 kB[22m[1m[22m[2m │ gzip:   7.84 kB[22m
+[2mdist/[22m[36massets/vendor-Dczo_K5b.js          [39m[1m[2m   34.46 kB[22m[1m[22m[2m │ gzip:  12.39 kB[22m
+[2mdist/[22m[36massets/ScrollTrigger-Cyj2mlPb.js   [39m[1m[2m   42.95 kB[22m[1m[22m[2m │ gzip:  17.38 kB[22m
+[2mdist/[22m[36massets/Play-B3wG_bY5.js            [39m[1m[2m   54.42 kB[22m[1m[22m[2m │ gzip:  18.01 kB[22m
+[2mdist/[22m[36massets/gsap-BaqsKTKs.js            [39m[1m[2m   69.32 kB[22m[1m[22m[2m │ gzip:  27.17 kB[22m
+[2mdist/[22m[36massets/react-three-CsSr7aHv.js     [39m[1m[2m  298.96 kB[22m[1m[22m[2m │ gzip:  95.29 kB[22m
+[2mdist/[22m[36massets/three-DVbEXFyf.js           [39m[1m[2m  752.78 kB[22m[1m[22m[2m │ gzip: 193.28 kB[22m
+[2mdist/[22m[36massets/TechStack-DcrOHqj_.js       [39m[1m[33m2,287.94 kB[39m[22m[2m │ gzip: 864.50 kB[22m
+[33m
+(!) Some chunks are larger than 1000 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓ built in 23.39s[39m
